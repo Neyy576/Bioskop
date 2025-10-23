@@ -48,9 +48,7 @@ const DiskonForm: React.FC = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br text-black from-blue-50 via-white to-blue-100">
-      {/* 🔹 Bungkus form dan hasil jadi sejajar */}
       <div className="flex flex-col md:flex-row gap-6 bg-white/80 backdrop-blur-sm shadow-2xl rounded-2xl p-8 w-full max-w-5xl">
-        {/* FORM */}
         <div className="w-full md:w-1/2">
           <form
             onSubmit={(e) => {
